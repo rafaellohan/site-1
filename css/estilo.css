@@ -1,0 +1,197 @@
+
+body {
+    margin: 0; /* fazer isso pra tirar uma pequena margem que fica */
+    padding: 0;
+    border: 0;
+    font-family: "open sans", sans-serif;
+}
+
+div.menu ul li {
+    display: inline-block; /* pro menu ficar alinhado */
+
+}
+
+div.banner {
+    background-image: url(../imagem/fundo.png); /* usar '..' pra adicionar fotos pelo css */
+    background-size: 100%; /* pra imagem ficar do tamanho da tela */
+    position: relative;
+    width: 100%;
+    height: 100vh;
+ 
+}
+
+header.menu-principal {
+    position: absolute;
+    top: 5px;
+    right: 75px;
+    z-index: 100; /* nivel de visibilidade, duvidas ir no chat do chel (msg ta marcada) */
+    float: right;
+
+}
+
+div.menu ul li a {
+    color: #f1f1f1; /* cor das palavras do menu */
+    text-decoration: none; /* pra tirar o sublinhado */
+    text-transform :uppercase;/* usei pra deixar o menu em maiusculo */
+    margin-left: 40px;  /* pra dar espaço entre as palavras */
+    font-size: 21px;
+    font-weight: bold;
+    transition: 0.6s all;
+}
+
+div.menu li a:hover {
+    color: #bdc3c7;
+}
+
+div.banner h1 {
+    position: relative;
+    text-align: center;
+    margin: 0;
+    color: #ffffff;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 50px;
+
+}
+
+div.banner h2 {
+    text-align: center;
+    margin: 0;
+    color: #FFD700;
+    top: 51%;
+    transform: translateY(-51%);
+    position: relative;
+
+}
+
+div.teste {
+    background-color:  #DBDBDB;
+
+}
+
+section#sobre h2 {
+    position: relative;
+    text-align: center;
+    top: 30px;
+    font-size: 50px;
+    transform: translateY(-10%);
+    margin: 0;
+    padding: 0;
+}
+
+section#sobre p {
+    position: relative;
+    text-align: justify;
+    text-indent: 18px;
+    margin-right: 57%;
+    margin-left: 10px;
+    padding: 0;
+    margin-bottom: 0;
+}
+
+div.barra-vermelha {
+    width: 100px;
+    height: 3px;
+    background: black;
+    margin: 40px auto;
+}
+
+div.inferno-cu a {
+    position: relative;
+    color: #e74c3c;
+    text-decoration: none;
+    border: 2px solid #e74c3e;
+    border-radius: 20px;
+    padding: 8px 40px;
+    transition: 0.4s linear;
+    top: 25px;
+    margin: 11px;
+
+}
+
+div.inferno-cu a:hover {
+    color: #ffffff;
+    background: #e74c3e;
+}
+
+div.skills {
+    position: relative;
+    left: 50%;
+    transform: translateY(-50%);
+    bottom: 118px;
+    margin: 2px;
+}
+
+div.skill {
+    position: relative;
+    margin-top: 30px;
+    bottom: 9px;
+
+}
+
+div.barra-p {
+    width: 48%;
+    height: 12px;
+    background: #7f8c8d;
+    border-radius: 12px;
+
+}
+
+div.progresso {
+    height: 12px;
+    background: #e74c3e;
+    border-radius: 12px;
+}
+
+.p1 {
+    width: 90%
+}
+
+.p2 {
+    width: 70%;
+}
+
+.p3 {
+    width: 50%;
+}
+
+div.progresso span {
+    float: right;
+    margin-right: 6px;
+    line-height: 13px;
+    color: white;
+}
+
+h3#um {
+    position: relative;
+    text-align: justify;
+    left: 91.5%;
+    bottom: 14px;
+    color: #7f8c8d;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+h3#dois {
+    position: relative;
+    text-align: justify;
+    left: 88.5%;
+    bottom: 14px;
+    color: #7f8c8d;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+h3#tres {
+    position: relative;
+    text-align: justify;
+    left: 83.5%;
+    bottom: 14px;
+    color: #7f8c8d;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+div.footer {
+    background-color: black;
+}
