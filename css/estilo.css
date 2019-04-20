@@ -17,19 +17,20 @@ div.banner {
     position: relative;
     width: 100%;
     height: 100vh;
- 
+
 }
 
 header.menu-principal {
     position: absolute;
-    top: 5px;
+    line-height: 1.7;
     right: 75px;
     z-index: 100; /* nivel de visibilidade, duvidas ir no chat do chel (msg ta marcada) */
     float: right;
 
+
 }
 
-div.menu ul li a {
+div.menu a {
     color: #f1f1f1; /* cor das palavras do menu */
     text-decoration: none; /* pra tirar o sublinhado */
     text-transform :uppercase;/* usei pra deixar o menu em maiusculo */
@@ -68,7 +69,6 @@ div.teste {
     background-color:  #DBDBDB;
 
 }
-
 
 
 section#sobre h2 {
