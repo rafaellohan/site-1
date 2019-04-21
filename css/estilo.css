@@ -204,3 +204,14 @@ h3#tres {
 div.footer {
     background-color: black;
 }
+
+div.conteudo-esquerda {
+    width: 50%;
+ 
+}
+
+div.conteudo-direita {
+    width: 50%;
+ 
+
+}
